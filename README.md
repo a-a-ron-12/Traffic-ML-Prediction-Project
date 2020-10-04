@@ -7,6 +7,7 @@ After the extraction and tranformation phase, the data is cached in the Spark SQ
 
 To take the project one step further, I was curious to see if it was possible to accurately predict the number of accidents, by day, for a select number of neighborhoods. The Long Short Term Memory (LSTM) model was trialed over multiple stationary scenarios, across multiple algorithms, but I was unable to prove there was a predictable pattern of traffic accidents in the Stapleton neighborhood. Trialing multiple scenarios, including RNN's, CNN's, stacked and bidirectional LSTM's, I could not create a model that accurately predicted on the test dataset, as displayed in the graph within the notebook, within the timeframe given. The mean squared error loss cost metric was under 10%, but was unable to trace the min/max spikes accurately.
 
+
 ## Project Scope Details
 
 ### Data Engineer Take Home Project
@@ -23,7 +24,6 @@ There are no bonus points given for finishing the project quickly.
 For test delivery, the data set here is relatively small (data from [Denver's open data catalog]
 (https://www.denvergov.org/opendata)).  You should approach this test as though the data were 1000x the actual 
 size and frequently updated by real-time events.
-
 
 #### Task 1 
 Download data about [Denver 311 service requests]
@@ -70,6 +70,7 @@ Please provide the code for the assignment either in a private repository (GitHu
   - E. What correlations are there between the two data sets?
 - Machine Learning Prediction Model
 
+
 # Technologies
 - Python
 - Databricks
@@ -77,11 +78,14 @@ Please provide the code for the assignment either in a private repository (GitHu
 - Keras
 - Tensorflow
 
+
 # Launch Date
 - 10/3/2020
 
+
 # Project status 
 The project is ready for review.
+
 
 # Sources
 - An application of the RNN family
