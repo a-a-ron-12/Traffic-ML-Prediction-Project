@@ -1,4 +1,4 @@
-# ibotta_engineer_project
+# Traffic Engineering Project
 
 ## Introduction
 This project was developed on the cloud-computing platform of Databricks, leveraging the parallelism and processing power of Spark. The process starts with creating a direct link to the public s3 buckets, where the csv.zip files are contained. The datasets and workloads were equally distributed over a 4 slot cloud cluster confiuration, a small minimal cost setup for this type of developmental project. Spark then extracts the csv data, contained with the zip files, transfers them to a Databricks file system (DBFS), builds dataframes, and transforms them for analytics and machine learning ingestion.
